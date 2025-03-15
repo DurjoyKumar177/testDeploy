@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['https://durjoykumar177.github.io','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://test-deploy-nine-dusky.vercel.app','https://durjoykumar177.github.io','https://*.127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'reviews',
     'applications',
 ]
+
+SITE_ID = 1 
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',  
